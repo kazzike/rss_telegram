@@ -6,7 +6,8 @@ import requests
 # Carga las variables de entorno del archivo .env
 load_dotenv()
 
-# Asegúrate de que cada feed RSS tenga un emoji correspondiente
+# Asegúrate de que cada feed RSS tenga un emoji correspondiente, puedes agregar diferentes fuentes RSS, solo tienes que seguir el mismo formato.
+
 rss_feeds = [
     ('BBC', 'http://feeds.bbci.co.uk/news/world/rss.xml', "🌍"),
     ('Wired', 'https://es.wired.com/feed/rss', "📰"),
@@ -31,7 +32,7 @@ def process_feed(feed_title, feed_url, emoji):
         print(f"Error procesando el feed {feed_title}: {e}")
         return ""
 
-# Función para obtener el informe del tiempo actualizado
+# Función para obtener el informe del tiempo actualizado de la ciudad que quieras
 def obtener_informe_del_tiempo(api_key, location="Barcelona"):
     try:
         url = f"http://api.weatherapi.com/v1/forecast.json?key={api_key}&q={location}&days=1&aqi=yes&alerts=no"
