@@ -19,10 +19,10 @@ Antes de ejecutar el script, asegúrate de tener instalado Python en tu sistema.
 
 Puedes instalar estas librerías utilizando `pip`:
 
-``` sh
-pip install feedparser requests python-dotenv ```
+``` pip install feedparser requests python-dotenv ```
 
 ## Configuración
+
 *Clonar el Repositorio:* Clona este repositorio en tu máquina local usando git clone.
 *Archivo .env:* Crea un archivo .env en el directorio raíz del proyecto con el siguiente contenido:
 ** WEATHER_API_KEY=tu_clave_api_del_servicio_de_clima **
