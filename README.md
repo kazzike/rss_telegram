@@ -23,13 +23,20 @@ Puedes instalar estas librerías utilizando `pip`:
 
 ## Configuración
 
-*Clonar el Repositorio:* Clona este repositorio en tu máquina local usando git clone.
-*Archivo .env:* Crea un archivo .env en el directorio raíz del proyecto con el siguiente contenido:
+* Clonar el Repositorio: * Clona este repositorio en tu máquina local usando git clone.
+  
+* Archivo .env: * Crea un archivo .env en el directorio raíz del proyecto con el siguiente contenido:
+  
 ** WEATHER_API_KEY=tu_clave_api_del_servicio_de_clima **
+
 ** TELEGRAM_BOT_TOKEN=tu_token_de_bot_de_telegram **
+
 ** TELEGRAM_CHAT_ID=tu_id_de_chat_de_telegram **
+
 Reemplaza los valores de ejemplo con tus claves API y tokens reales.
+
 * Ejecución: * Ejecuta el script con el siguiente comando:
+  
 ``` python script.py ```
 
 ## Uso
