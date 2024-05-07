@@ -50,4 +50,4 @@ El script se ejecutará automáticamente y realizará las siguientes acciones:
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia para mejorar el script, no dudes en crear un ‘pull request’ o abrir un ‘issue’.
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la GNU General Public License v3.0. Consulta el archivo LICENSE para más detalles.
